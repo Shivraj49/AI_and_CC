@@ -20,7 +20,7 @@ def promising(s, c):
 def get_color_for_state(s):
     for c in colors:
         if promising(s, c):
-            return colors
+            return c
 
 def main():
     for s in states:
